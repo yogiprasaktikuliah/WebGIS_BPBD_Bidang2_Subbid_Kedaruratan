@@ -24,7 +24,8 @@ var lyr_Admin_Kalsel_Biro_Tapem_1 = new ol.layer.Vector({
                 style: style_Admin_Kalsel_Biro_Tapem_1,
                 popuplayertitle: 'Admin_Kalsel_Biro_Tapem',
                 interactive: true,
-    title: 'Admin_Kalsel_Biro_Tapem<br />\
+    title: '<details><summary><b>Admin_Kalsel_Biro_Tapem</b></summary>\
+    <br />\        
     <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_0.png" /> Kabupaten Balangan<br />\
     <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_1.png" /> Kabupaten Banjar<br />\
     <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_2.png" /> Kabupaten Barito Kuala<br />\
