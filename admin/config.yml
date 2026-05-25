@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # atau master, sesuaikan dengan branch GitHub Anda
+  branch: main # atau master, sesuaikan dengan branch GitHub Anda
 
 media_folder: "data" # Folder tempat file GeoJSON/JS akan diunggah
 public_folder: "data"
