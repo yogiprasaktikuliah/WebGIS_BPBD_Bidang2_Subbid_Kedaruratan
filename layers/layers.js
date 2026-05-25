@@ -1,8 +1,9 @@
 var wms_layers = [];
 
 
-        var lyr_OSMStandard_0 = new ol.layer.Tile({
-            'title': 'OSM Standard',
+	var lyr_OSMStandard_0 = new ol.layer.Tile({
+            'title': '<details><summary><b>OSM Standard</b></summary>Peta Dasar OSM</details>',
+            'type': 'base',
             'opacity': 1.000000,
             
             
