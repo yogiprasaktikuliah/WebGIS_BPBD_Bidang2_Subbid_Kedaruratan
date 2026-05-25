@@ -1,0 +1,10 @@
+{
+  "layers": [
+    {
+      "warna": "#0000FF",
+      "transparansi": 1,
+      "file_peta": "/data/titik-genangan-banjir.json",
+      "nama": "Titik Banjir HST 18 Mei 2026"
+    }
+  ]
+}
