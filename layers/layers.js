@@ -24,22 +24,21 @@ var lyr_Admin_Kalsel_Biro_Tapem_1 = new ol.layer.Vector({
                 style: style_Admin_Kalsel_Biro_Tapem_1,
                 popuplayertitle: 'Admin_Kalsel_Biro_Tapem',
                 interactive: true,
-title: '<details><summary><b>Admin_Kalsel_Biro_Tapem</b></summary>\
-<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_0.png" /> Kabupaten Balangan<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_1.png" /> Kabupaten Banjar<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_2.png" /> Kabupaten Barito Kuala<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_3.png" /> Kabupaten Hulu Sungai Selatan<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_4.png" /> Kabupaten Hulu Sungai Tengah<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_5.png" /> Kabupaten Hulu Sungai Utara<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_6.png" /> Kabupaten Kotabaru<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_7.png" /> Kabupaten Tabalong<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_8.png" /> Kabupaten Tanah Bumbu<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_9.png" /> Kabupaten Tanah Laut<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_10.png" /> Kabupaten Tapin<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_11.png" /> Kota Banjarbaru<br />\
-<img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_12.png" /> Kota Banjarmasin<br />\
-</details>'
+    title: '<details><summary><b>Admin_Kalsel_Biro_Tapem</b></summary>\
+    <br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_0.png" /> Kabupaten Balangan<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_1.png" /> Kabupaten Banjar<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_2.png" /> Kabupaten Barito Kuala<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_3.png" /> Kabupaten Hulu Sungai Selatan<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_4.png" /> Kabupaten Hulu Sungai Tengah<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_5.png" /> Kabupaten Hulu Sungai Utara<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_6.png" /> Kabupaten Kotabaru<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_7.png" /> Kabupaten Tabalong<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_8.png" /> Kabupaten Tanah Bumbu<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_9.png" /> Kabupaten Tanah Laut<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_10.png" /> Kabupaten Tapin<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_11.png" /> Kota Banjarbaru<br />\
+    <img src="styles/legend/Admin_Kalsel_Biro_Tapem_1_12.png" /> Kota Banjarmasin<br />' });
 
 lyr_OSMStandard_0.setVisible(true);lyr_Admin_Kalsel_Biro_Tapem_1.setVisible(true);
 var layersList = [lyr_OSMStandard_0,lyr_Admin_Kalsel_Biro_Tapem_1];
