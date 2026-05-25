@@ -1,16 +1,34 @@
 backend:
   name: git-gateway
-  branch: main # atau master, sesuaikan dengan branch GitHub Anda
+  branch: main 
 
-media_folder: "data" # Folder tempat file GeoJSON/JS akan diunggah
-public_folder: "data"
+media_folder: "data"
+public_folder: "/data"
 
 collections:
-  - name: "peta_data"
-    label: "Data Spasial Peta"
-    folder: "data" # Target folder di repo Anda
-    create: true # Mengizinkan admin upload file baru
-    delete: true # Mengizinkan admin menghapus file
-    fields:
-      - {label: "Judul Data", name: "title", widget: "string"}
-      - {label: "File GeoJSON", name: "body", widget: "file"}
+  - name: "pengaturan_peta"
+    label: "Pengaturan Peta"
+    files:
+      - file: "data/layer_config.json"
+        name: "daftar_layer"
+        label: "Manajemen Layer Dinamis"
+        fields:
+          - name: "layers"
+            label: "Daftar Data GeoJSON"
+            widget: "list"
+            fields:
+              - {label: "Nama Layer (Muncul di Legenda)", name: "nama", widget: "string"}
+              - {label: "File GeoJSON", name: "file_peta", widget: "file"}
+              - label: "Warna Layer"
+                name: "warna"
+                widget: "select"
+                default: "#FF0000"
+                options:
+                  - {label: "Merah", value: "#FF0000"}
+                  - {label: "Biru", value: "#0000FF"}
+                  - {label: "Hijau", value: "#00FF00"}
+                  - {label: "Kuning", value: "#FFFF00"}
+                  - {label: "Oranye", value: "#FFA500"}
+                  - {label: "Ungu", value: "#800080"}
+                  - {label: "Hitam", value: "#000000"}
+              - {label: "Tingkat Transparansi (0 = Hilang, 1 = Padat)", name: "transparansi", widget: "number", value_type: "float", min: 0, max: 1, step: 0.1, default: 0.6}
